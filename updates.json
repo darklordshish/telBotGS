@@ -1,0 +1,195 @@
+{
+    "ok": true,
+    "result": [
+        {
+            "update_id": 39519540,
+            "my_chat_member": {
+                "chat": {
+                    "id": 101208796,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "type": "private"
+                },
+                "from": {
+                    "id": 101208796,
+                    "is_bot": false,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "language_code": "ru"
+                },
+                "date": 1658842273,
+                "old_chat_member": {
+                    "user": {
+                        "id": 155254197,
+                        "is_bot": true,
+                        "first_name": "justTextMe",
+                        "username": "AjaxTelamonid_bot"
+                    },
+                    "status": "member"
+                },
+                "new_chat_member": {
+                    "user": {
+                        "id": 155254197,
+                        "is_bot": true,
+                        "first_name": "justTextMe",
+                        "username": "AjaxTelamonid_bot"
+                    },
+                    "status": "kicked",
+                    "until_date": 0
+                }
+            }
+        },
+        {
+            "update_id": 39519541,
+            "my_chat_member": {
+                "chat": {
+                    "id": 101208796,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "type": "private"
+                },
+                "from": {
+                    "id": 101208796,
+                    "is_bot": false,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "language_code": "ru"
+                },
+                "date": 1658842275,
+                "old_chat_member": {
+                    "user": {
+                        "id": 155254197,
+                        "is_bot": true,
+                        "first_name": "justTextMe",
+                        "username": "AjaxTelamonid_bot"
+                    },
+                    "status": "kicked",
+                    "until_date": 0
+                },
+                "new_chat_member": {
+                    "user": {
+                        "id": 155254197,
+                        "is_bot": true,
+                        "first_name": "justTextMe",
+                        "username": "AjaxTelamonid_bot"
+                    },
+                    "status": "member"
+                }
+            }
+        },
+        {
+            "update_id": 39519542,
+            "message": {
+                "message_id": 343,
+                "from": {
+                    "id": 101208796,
+                    "is_bot": false,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 101208796,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "type": "private"
+                },
+                "date": 1658842286,
+                "text": "/start",
+                "entities": [
+                    {
+                        "offset": 0,
+                        "length": 6,
+                        "type": "bot_command"
+                    }
+                ]
+            }
+        },
+        {
+            "update_id": 39519543,
+            "message": {
+                "message_id": 344,
+                "from": {
+                    "id": 101208796,
+                    "is_bot": false,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 101208796,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "type": "private"
+                },
+                "date": 1658842291,
+                "sticker": {
+                    "width": 512,
+                    "height": 386,
+                    "emoji": "\ud83d\ude09",
+                    "set_name": "video_gachi",
+                    "is_animated": false,
+                    "is_video": true,
+                    "thumb": {
+                        "file_id": "AAMCAgADGQEAAgFYYt_ss8474asVFfxJFtSbCw5n8IcAAhkWAAJ6ushLeGS6q_CR6dABAAdtAAMpBA",
+                        "file_unique_id": "AQADGRYAAnq6yEty",
+                        "file_size": 4296,
+                        "width": 320,
+                        "height": 241
+                    },
+                    "file_id": "CAACAgIAAxkBAAIBWGLf7LPOO-GrFRX8SRbUmwsOZ_CHAAIZFgACerrIS3hkuqvwkenQKQQ",
+                    "file_unique_id": "AgADGRYAAnq6yEs",
+                    "file_size": 96930
+                }
+            }
+        },
+        {
+            "update_id": 39519544,
+            "message": {
+                "message_id": 345,
+                "from": {
+                    "id": 101208796,
+                    "is_bot": false,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "language_code": "ru"
+                },
+                "chat": {
+                    "id": 101208796,
+                    "first_name": "Semion",
+                    "last_name": "Shishkin",
+                    "username": "Darklordshish",
+                    "type": "private"
+                },
+                "date": 1658842291,
+                "sticker": {
+                    "width": 512,
+                    "height": 375,
+                    "emoji": "\ud83c\udf7a",
+                    "set_name": "video_gachi",
+                    "is_animated": false,
+                    "is_video": true,
+                    "thumb": {
+                        "file_id": "AAMCAgADGQEAAgFZYt_ssyXjPNDwNf1U7AvtDjNoRcEAAswUAAIK18lLGuxoKB7NTf8BAAdtAAMpBA",
+                        "file_unique_id": "AQADzBQAAgrXyUty",
+                        "file_size": 6042,
+                        "width": 320,
+                        "height": 234
+                    },
+                    "file_id": "CAACAgIAAxkBAAIBWWLf7LMl4zzQ8DX9VOwL7Q4zaEXBAALMFAACCtfJSxrsaCgezU3_KQQ",
+                    "file_unique_id": "AgADzBQAAgrXyUs",
+                    "file_size": 97488
+                }
+            }
+        }
+    ]
+}
