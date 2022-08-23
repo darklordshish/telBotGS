@@ -1,6 +1,6 @@
 ## telBotGS
 Simple telegram bot with some functionality.
-Add your dot token to file  'botToken'
+Add your bot's token to file  'botToken'
 simple telegram bot
 - magic sphere
 - horoscope
