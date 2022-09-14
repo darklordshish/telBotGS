@@ -1,7 +1,7 @@
 ## telBotGS
 Simple telegram bot with some functionality.
 Add your bot's token to file  'botToken'
-Ypur should install SQLite
+Also, You should install SQLite
 simple telegram bot
 - magic sphere
 - horoscope
