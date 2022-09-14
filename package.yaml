@@ -31,7 +31,7 @@ dependencies:
 - time
 - mtl
 - persistent
-- persistent-postgresql
+- persistent-sqlite
 - persistent-template
 - esqueleto
 - monad-logger
@@ -41,6 +41,19 @@ dependencies:
 # - gogol-speech
 # - gogol-core
 # - aeson
+extensions:
+- ExistentialQuantification  
+- GADTs                      
+- GeneralizedNewtypeDeriving 
+- MultiParamTypeClasses      
+- QuasiQuotes                
+- TemplateHaskell            
+- TypeFamilies               
+- DerivingStrategies 
+- StandaloneDeriving 
+- UndecidableInstances 
+- DataKinds 
+- FlexibleInstances 
 
 library:
   source-dirs: src

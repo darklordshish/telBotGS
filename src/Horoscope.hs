@@ -4,7 +4,9 @@ module Horoscope
     ( randomResponse
     , randomHoroscope 
     , signs
-    , secureTokenName 
+    , secureTokenName
+    , intBySign
+    , signByInt
     ) where
 
 
@@ -78,10 +80,20 @@ signs = [["♈️","♉️","♊️","♋️"]
         ]
 
 signs' :: [(Int,Text)]
-signs' = [( 3,"♈️"),( 4,"♉️"),( 5,"♊️"),( 6,"♋️")
-         ,( 7,"♌️"),( 8,"♍️"),( 9,"♎️"),(10,"♏️")
-         ,(11,"♐️"),(12,"♑️"),( 1,"♒️"),( 2,"♓️")
+signs' = [( 1,"♒️"),( 2,"♓️"),( 3,"♈️"),( 4,"♉️")
+         ,( 5,"♊️"),( 6,"♋️"),( 7,"♌️"),( 8,"♍️")
+         ,( 9,"♎️"),(10,"♏️"),(11,"♐️"),(12,"♑️")
          ]
+
+signByInt :: Int -> Text
+signByInt num 
+  | num > 0 && num < 13 = snd $ signs' !! (num-1) 
+  | otherwise = snd $ signs' !! 0
+
+intBySign :: Text -> Int
+intBySign t = case (filter ( (== t) . Text.pack . return . Text.head . snd ) signs') of 
+                [(n,s)] -> n
+                _       -> 0
 
 secureTokenName :: IO (Maybe String)
 secureTokenName  = do

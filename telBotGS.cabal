@@ -25,6 +25,8 @@ source-repository head
 
 library
   exposed-modules:
+      Bot
+      DBConnection
       Horoscope
       Schema
   other-modules:
@@ -41,7 +43,7 @@ library
     , monad-logger
     , mtl
     , persistent
-    , persistent-postgresql
+    , persistent-sqlite
     , persistent-template
     , random
     , servant-client
@@ -68,7 +70,7 @@ executable telBotGS-exe
     , monad-logger
     , mtl
     , persistent
-    , persistent-postgresql
+    , persistent-sqlite
     , persistent-template
     , random
     , servant-client
@@ -97,7 +99,7 @@ test-suite telBotGS-test
     , monad-logger
     , mtl
     , persistent
-    , persistent-postgresql
+    , persistent-sqlite
     , persistent-template
     , random
     , servant-client

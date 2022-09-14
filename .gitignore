@@ -1,3 +1,5 @@
 .stack-work/
 botToken
+magicBot.log
+data/magicbot.db
 *~
